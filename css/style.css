@@ -22,8 +22,42 @@ body {
 body {
   background-color: #dda15e;
   position:relative;
+  
+  background:
+    linear-gradient(0deg, rgba(64, 93, 230, 1), transparent 75%),
+    linear-gradient(120deg, rgba(225, 48, 108, 1), transparent),
+    linear-gradient(240deg, rgb(252, 175, 69, 1), transparent);
+    background-size: 100% 100%;
+    animation: gradient 10s ease-in-out infinite;
+    background-attachment: fixed;
 }
 
+@keyframes gradient {
+    0% {
+        background-position: 50% 50%;
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background-position: 0% 0%;
+        background-size: 200% 200%;
+    }
+
+    50% {
+        background-position: 0% 50%;
+        background-size: 200% 200%;
+    }
+
+    75% {
+        background-position: 100% 0%;
+        background-size: 200% 200%;
+    }
+
+    100% {
+        background-position: 50% 50%;
+        background-size: 100% 100%;
+    }
+}
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -66,7 +100,7 @@ img {
 .namecard h2 span {
   padding: 10px;
   font-size: 16px;
-  color: #dda15e;
+  color: #fcaf45;
   letter-spacing: 5px;
 }
 
@@ -87,14 +121,14 @@ img {
   border-radius:100%;
   position:absolute;
   transition-duration: 0.5s;
-  
+  overflow: hidden;
 }
 
 .circle1{
   width: 80px; height: 80px;
   right: -30px;
   top: -30px;
-  border: solid 6px #bc6c25;
+  border: solid 6px #fcaf45;
   overflow: hidden;
 }
 
@@ -102,13 +136,15 @@ img {
   width: 40px; height: 40px;
   right: 80px;
   top: 65px;
-  background-color: #bc6c25;
+  background-color: #fcaf45;
+  overflow: hidden;
 }
+
 
 .page_title {
   text-align: center;
   font-size: 28px;
-  color: #F8F8F5;
+  color: #fefae0;
   font-weight: bold;
   letter-spacing: 5px;
 }
