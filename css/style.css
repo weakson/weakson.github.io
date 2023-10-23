@@ -28,7 +28,7 @@ body {
     linear-gradient(120deg, rgba(225, 48, 108, 1), transparent),
     linear-gradient(240deg, rgb(252, 175, 69, 1), transparent);
     background-size: 100% 100%;
-    animation: gradient 10s ease-in-out infinite;
+    animation: gradient 5s ease-in-out infinite;
     background-attachment: fixed;
 }
 
@@ -63,7 +63,7 @@ body {
  *********************************************/
 
 .namecard {
-  width: 800px;
+  width: 815px;
   height: 300px;
   padding: 30px;
   margin-left: auto;
@@ -149,9 +149,6 @@ img {
   letter-spacing: 5px;
 }
 
-
-
-
 /* 動畫 */
 
 .namecard:hover {
@@ -164,7 +161,7 @@ img {
 
 .namecard:hover .circle1 {
   transform-origin: 30% 30%;
-  transform: scale(1.8);
+  transform: scale(2);
   transition-duration: 2s;
   overflow: hidden;
 }
