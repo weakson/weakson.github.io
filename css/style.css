@@ -4,6 +4,7 @@
 /* 指定預設字型 相對位置 */
 
 * {
+  font-family: monospace;
   font-family: 微軟正黑體;
 }
 
@@ -19,7 +20,7 @@ body {
 }
 /* 指定背景顏色 相對位置 */
 body {
-  background-color: #94D0D4;
+  background-color: #dda15e;
   position:relative;
 }
 
@@ -28,13 +29,13 @@ body {
  *********************************************/
 
 .namecard {
-  width: 850px;
+  width: 800px;
   height: 300px;
   padding: 30px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 150px;
-  background-color: #eee;
+  background-color: #fefae0;
   letter-spacing: 1px;
   color: #666;
   transition-duration: 1s;
@@ -65,7 +66,7 @@ img {
 .namecard h2 span {
   padding: 10px;
   font-size: 16px;
-  color: #67BDCC;
+  color: #dda15e;
   letter-spacing: 5px;
 }
 
@@ -93,14 +94,15 @@ img {
   width: 80px; height: 80px;
   right: -30px;
   top: -30px;
-  border: solid 6px #FFB66B;
+  border: solid 6px #bc6c25;
+  overflow: hidden;
 }
 
 .circle2{
   width: 40px; height: 40px;
   right: 80px;
   top: 65px;
-  background-color: #FFB66B;
+  background-color: #bc6c25;
 }
 
 .page_title {
@@ -119,7 +121,7 @@ img {
 .namecard:hover {
   transform: translateY(0px) translateX(-40px);
   box-shadow: 10px 10px 30px rgba(50, 50, 50, 0.3);
-  background-color: #fff;
+  background-color: #fefae0;
   color: #22222;
 
 }
