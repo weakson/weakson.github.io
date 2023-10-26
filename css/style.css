@@ -27,7 +27,7 @@ body {
     linear-gradient(120deg, rgba(225, 48, 108, 1), transparent),
     linear-gradient(240deg, rgb(252, 175, 69, 1), transparent);
     background-size: 100% 100%;
-    animation: gradient 10s ease-in-out infinite;
+    animation: gradient 0.5s ease-in-out infinite;
     background-attachment: fixed;
 }
 
